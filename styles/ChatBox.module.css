@@ -1,0 +1,147 @@
+/* Page chatBox */
+
+.page {
+    background-color: rgb(180, 180, 180);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+/* Component chatApp */
+
+  .chatApp {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 400px;
+  }
+  
+/* Component chatBox */
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    max-width: 60vh;
+  }
+  
+  .chatBox {
+    margin-top: 15%;
+    width: 100%;
+    height: 80%;
+    border: 1px solid #070707;
+    padding: 20px;
+    overflow-y: auto;
+    border-radius: 10px;
+    background-color: aliceblue;
+  }
+  
+  .sender {
+    margin-bottom: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: aliceblue;
+  }
+  
+  .messageList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .message {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .messageContent {
+    word-break: break-all;
+  }
+  
+  
+  .sentMessage {
+    background-color: #add5ff;
+    margin-right: 10vh;
+  }
+  
+  .receivedMessage {
+    background-color: #ff9c9c;
+    margin-left: 10vh;
+  }
+  
+  .message .text {
+    margin-bottom: 5px;
+  }
+  
+  .messageActions {
+    margin-top: 5px;
+  }
+  
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .inputContainer input {
+    flex-grow: 1;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .inputContainer button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #82fbdb;
+  }
+  
+  .buttonContainer {
+    margin-top: 0px;
+    display: flex;
+    margin-left: 20px;
+  }
+  
+  .buttonContainer button {
+    margin-right: 5px;
+  }
+
+  .save {
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 2px;
+    background-color: white;
+  }
+
+  .cancel {
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 2px;
+    color:white;
+    background-color: rgb(74, 74, 74);
+  }
+
+  .edit {
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 2px;
+    background-color: white;
+  }
+
+  .delete {
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 2px;
+    color:white;
+    background-color: rgb(74, 74, 74);
+  }
